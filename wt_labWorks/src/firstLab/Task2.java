@@ -13,7 +13,11 @@ public class Task2 {
 		System.out.print("Enter Y of the point: ");
 		int pointY = scanner.nextInt();
 
-		boolean flag = false;
+		checkMatch(scale, pointX, pointY);
+	}
+
+	private static void checkMatch(int scale, int pointX, int pointY) {
+		boolean flag;
 		if ((pointX >= -4 * scale && pointX <= 4 * scale) && (pointY <= 5 * scale && pointY >= 0)) {
 			flag = true;
 			System.out.println("Point is in this area (flag = " + flag + ")");
@@ -24,5 +28,6 @@ public class Task2 {
 			flag = false;
 			System.out.println("Point is not in this area (flag = " + flag + ")");
 		}
+
 	}
 }
