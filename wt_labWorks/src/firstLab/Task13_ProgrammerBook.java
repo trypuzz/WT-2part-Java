@@ -1,13 +1,13 @@
 package firstLab;
 
-public class Task13 {
+public class Task13_ProgrammerBook {
 	private int level;
 	private String language;
 
 	@Override
 	public boolean equals(Object obj) {
-		if (obj instanceof Task13)
-			return super.equals(obj) && language == ((Task13) obj).language && level == ((Task13) obj).level;
+		if (obj instanceof Task13_ProgrammerBook)
+			return super.equals(obj) && language == ((Task13_ProgrammerBook) obj).language && level == ((Task13_ProgrammerBook) obj).level;
 		else
 			return false;
 	}
