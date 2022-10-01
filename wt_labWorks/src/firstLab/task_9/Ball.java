@@ -1,14 +1,18 @@
 package firstLab.task_9;
-
-import java.awt.*;
-
 public class Ball {
+	private String color;
+	private double weight;
 
-	public String color;
-	public double weight;
+	public double getWeight() {
+		return this.weight;
+	}
 
-	public Ball(String color, double weight) {
-		this.color = color;
+	public String getColor() {
+		return this.color;
+	}
+
+	public Ball(double weight, String color) {
 		this.weight = weight;
+		this.color = color;
 	}
 }
