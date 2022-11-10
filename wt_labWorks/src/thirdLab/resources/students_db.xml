@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<id>0</id>
+		<name>Mark</name>
+		<avgGrade>6.7</avgGrade>
+	</student>
+	<student>
+		<id>1</id>
+		<name>George</name>
+		<avgGrade>7.67</avgGrade>
+	</student>
+	<student>
+		<id>2</id>
+		<name>Tom</name>
+		<avgGrade>9.7</avgGrade>
+	</student>
+	<student>
+		<id>3</id>
+		<name>John</name>
+		<avgGrade>5.1</avgGrade>
+	</student>
+	<student>
+		<id>4</id>
+		<name>Bill</name>
+		<avgGrade>6.2</avgGrade>
+	</student>
+	<student>
+		<id>5</id>
+		<name>Jane</name>
+		<avgGrade>8</avgGrade>
+	</student>
+	<student>
+		<id>6</id>
+		<name>Alice</name>
+		<avgGrade>9</avgGrade>
+	</student>
+</students>
